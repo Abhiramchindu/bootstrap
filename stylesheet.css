@@ -4,9 +4,24 @@
     padding: 20px;
     margin-bottom: 20px;
 }
-.row mb-3{
+.mb-3{
+    border-radius:0px;
     
 }
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.form-label {
+    display: inline-block;
+    background-color: #f8f9fa; /* Optional: Change background color */
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+
 .form-title {
     font-weight: bold;
     margin-bottom: 15px;
